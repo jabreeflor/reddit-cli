@@ -1,0 +1,19 @@
+{
+  "name": "reddit-cli",
+  "version": "1.0.0",
+  "description": "Terminal CLI for browsing Reddit — no auth required",
+  "type": "module",
+  "bin": {
+    "reddit": "./reddit.js"
+  },
+  "scripts": {
+    "start": "node reddit.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
